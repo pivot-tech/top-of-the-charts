@@ -10,6 +10,33 @@
 
 <body>
     <!-- Your Code Here -->
+    <div class="container">
+        <div class="site">
+            <nav class="navbar">
+                <header class="header">
+                    <h1 class="h2" role="heading">Top Of the Charts 🎤</h1>
+                    <p class="lead">Select a Genre Below to view its Top Artist</p>
+                </header>
+                <ul class="nav" role="navigation">
+                    <li class="nav-item genre-button" data-genre="pop" role="button">
+                        Pop
+                    </li>
+                    <li class="nav-item genre-button" data-genre="rap" role="button">
+                        Rap
+                    </li>
+                    <li class="nav-item genre-button" data-genre="rock" role="button">
+                        Rock
+                    </li>
+                    <li class="nav-item genre-button" data-genre="edm" role="button">
+                        EDM
+                    </li>
+                </ul>
+            </nav>
+            <ul id="topArtistsList" class="list list--empty">
+                <p class="placeholder">Nothing to see here</p>
+            </ul>
+        </div>
+    </div>
     <!-- 🖥 ⌨️ 🖱 -->
     <script src="./src/index.js"></script>
 </body>
